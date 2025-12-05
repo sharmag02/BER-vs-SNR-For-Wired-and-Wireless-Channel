@@ -29,10 +29,10 @@ The Simulink model and MATLAB scripts together help visualize how different para
 
 ---
 
-## 📁 Files in this Repository
 
 
----
+
+
 
 ## 🚀 How to Use the Simulink Model
 
@@ -55,13 +55,13 @@ BERtool instantly updates the BER vs SNR plot.
 ## 📈 How to Run the Mathematical BER Script
 
 Run the script:
-
+```matlab
 clc; clear; close all;
 run('bersnr.m');
 BER = qfunc(sqrt(SNR));
 C  = nchoosek(2*L - 1, L)
 BER = C * (1./(2*SNR)).^L
-
+```
 
 
 ## Screenshots
@@ -73,5 +73,5 @@ BER = C * (1./(2*SNR)).^L
 
 
 
-7. To open BERtool:
+
 

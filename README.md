@@ -59,9 +59,19 @@ Run the script:
 clc; clear; close all;
 run('bersnr.m');
 BER = qfunc(sqrt(SNR));
-
 C  = nchoosek(2*L - 1, L)
 BER = C * (1./(2*SNR)).^L
+
+
+
+## Screenshots
+
+<img width="1377" height="558" alt="Screenshot 2025-11-03 145255" src="https://github.com/user-attachments/assets/a4ca2c8f-4910-4f45-8d98-d6ebf79c9a66" />
+<img width="862" height="852" alt="Screenshot 2025-12-05 141356" src="https://github.com/user-attachments/assets/8cefb28b-54ae-4255-942d-a1f43ffdfc04" />
+<img width="689" height="714" alt="Screenshot 2025-11-05 211331" src="https://github.com/user-attachments/assets/5a5923ba-481f-435c-b2c5-03a8612a43b9" />
+
+
+
 
 7. To open BERtool:
 

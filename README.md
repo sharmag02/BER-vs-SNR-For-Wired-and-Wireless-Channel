@@ -66,14 +66,17 @@ BER = C * (1./(2*SNR)).^L
 
 ## Screenshots
 
-Simulink Model
-<img width="1377" height="558" alt="Screenshot 2025-11-03 145255" src="https://github.com/user-attachments/assets/a4ca2c8f-4910-4f45-8d98-d6ebf79c9a66" />
 
-BER Tool
-<img width="862" height="852" alt="Screenshot 2025-12-05 141356" src="https://github.com/user-attachments/assets/8cefb28b-54ae-4255-942d-a1f43ffdfc04" />
+<img width="1377" height="558" alt="Simulink Model" src="https://github.com/user-attachments/assets/a4ca2c8f-4910-4f45-8d98-d6ebf79c9a66" />
+<p align="center"><b>Simulink Model</b></p>
 
-Graph of Rayleigh Channel
-<img width="689" height="714" alt="Screenshot 2025-11-05 211331" src="https://github.com/user-attachments/assets/5a5923ba-481f-435c-b2c5-03a8612a43b9" />
+
+<img width="862" height="852" alt="BER Tool" src="https://github.com/user-attachments/assets/8cefb28b-54ae-4255-942d-a1f43ffdfc04" />
+<p align="center"><b>BER Tool</b></p>
+
+
+<img width="709" height="714" alt="BER vs SNR Graph for Rayleigh Channel at Different Diversity Orders" src="https://github.com/user-attachments/assets/5a5923ba-481f-435c-b2c5-03a8612a43b9" />
+<p align="center"><b>BER vs SNR for Rayleigh Channel at Different Diversity Orders</b></p>
 
 
 📈 Output
